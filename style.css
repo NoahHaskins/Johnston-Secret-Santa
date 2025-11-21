@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffae5; /* Light golden background */
+    background-image: url('./Christmas.png'); /* Add a Christmas background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #a22f2f; /* Christmas red */
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px #663f2b; /* Black shadow */
+
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #663f2b; /* Shadow for holiday look */
+    
+}
+
+h2 {
+    color: #333;
+}
+
+/* Section Styling */
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fffdf0; /* Light holiday cream color */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
+
+.button-grid button {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 32px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #46614762;
+    background-color: #85d19a; /* Evergreen color */
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow: 2px 2px 4px #663f2b; /* Black shadow */
+
+}
+
+.button-grid button:hover {
+    background-color: #e94f4f; /* Holiday red on hover */
+    transform: scale(1.05);
+}
+
+/* Buttons and Inputs */
+button, input[type="text"], input[type="number"] {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #a22f2f;
+    background-color: #dcefc4; /* Light green background */
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="text"]:hover, input[type="number"]:hover {
+    background-color: #e94f4f; /* Holiday red on hover */
+}
+
+
+footer {
+    text-align: right;
+    padding: 0px 20px 0px 0;
+    background-color: #a22f2f;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px #663f2b; /* Black shadow */
+
+
+}
+
+/* List Styling */
+ul#nameList {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+ul#nameList li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffefe1; /* Light pinkish holiday tint */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+ul#nameList li.crossed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+/* Input Field Styling */
+input[type="text"], input[type="number"] {
+    background-color: #e0ffe5; /* Light green */
+    border: 2px solid #466147;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="text"]:hover, input[type="number"]:hover {
+    border-color: #ff4949; /* Hover border red */
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #a22f2f;
+    background-color: #ffe9e0;
+}
+
+
+/* General styling for ads */
+.ad-footer {
+    background-color: #f8a9b0; /* Light red for attention */
+    text-align: center;
+    margin-left: 18px;
+    font-weight: bold;
+    border: 10px solid #f58b95;
+    text-shadow: 2px 2px 4px #663f2b; /* Black shadow */
+
+}
+
+/* Existing styling for right sidebar ad */
+.ad-sidebar-right {
+    background-color: #d4edda; /* Light green for a subtle ad */
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    right: 10px; /* Align to the right */
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    border: 5px solid #69df84;
+    border-radius: 20px; /* Rounds the corners */
+}
+
+.ad-sidebar-right p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling for the left circular ad */
+.ad-sidebar-left {
+    position: absolute;
+    top: 250px; /* Adjust based on your layout */
+    left: 10px; /* Align to the left */
+}
+
+/* Right circular ad */
+.ad-sidebar-right-2 {
+    position: absolute;
+    top: 500px; /* Below the existing right ad */
+    right: 10px; /* Align to the right */
+}
+
+/* Left square ad */
+.ad-sidebar-left-2 {
+    position: absolute;
+    top: 600px; /* Below the left circular ad */
+    left: 10px; /* Align to the left */
+    width: 340px;
+    height: 380px;
+    background-color: #d4edda; /* Light yellow background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 5px solid #69df84; /* Border around the square */
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.5em;
+}
+
+.circle-ad {
+    background-color: #fda3aa; /* Light red background */
+    color: white;
+    width: 320px; /* Circle diameter */
+    height: 320px; /* Circle diameter */
+    border-radius: 50%; /* Makes the div a circle */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #fe5f5f; /* Add a red border around the circle */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow */
+    
+
+}
+
+.circle-ad p {
+    margin: 5px 0; /* Add some spacing between text elements */
+}
+
+
+.ad-header {
+    font-size: 1.5em;
+    font-weight: bold; /* Make it bold */
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow */
+    margin-bottom: 10px; /* Add some spacing below */
+}
+
+.hcc-logo {
+    width: 180px; /* Adjust the logo size */
+    height: 180px;
+    margin: 0px 0; /* Space around the logo */
+}
+
+.logo-container {
+    display: flex; /* Ensure it stays centered */
+    justify-content: center;
+}
