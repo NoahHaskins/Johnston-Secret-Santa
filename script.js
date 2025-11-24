@@ -17,10 +17,10 @@ function displayNames() {
 
 const gifteeLinks = {
     "Grandma": "",
-    "James": "",
-    "Madison": "",
+    "James": "https://www.amazon.com/hz/wishlist/ls/3AEAJ97V3OU6Z?ref_=wl_share",
+    "Madison": "https://www.amazon.com/hz/wishlist/ls/2852535JAMP94?ref_=wl_share",
     "Dylan": "",
-    "Carter": "",
+    "Carter": "https://www.amazon.com/registries/gl/guest-view/DNO54YHG7TZ1?ref_=cm_sw_r_apann_ggr-subnav-share_SEEY79ZVXKWZDVXEC9ZP&language=en-USk",
     "Kristy": "",
     "Noah": "https://www.amazon.com/hz/wishlist/ls/BSPKNIV53QMR?ref_=wl_share",
     "Raya": "",
@@ -113,3 +113,4 @@ function parseAssignments(content) {
 
     displayNames();
 }
+
